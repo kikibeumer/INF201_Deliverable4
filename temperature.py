@@ -3,93 +3,99 @@ class Temperature:
 
     TOLERANCE = 1e-9
 
-    def __init__(self, value: float, unit: str) -> None:
+    def __init__(self, value: float, unit: str = "C") -> None:
         """Initializes a Temperature object.
         Args:
             value (float): The temperature value.
             unit (str): The unit of the temperature ('C', 'F', or 'K').
+            Set default unit to Celsius to pass test_temperature.
         """
 
         unit = unit.upper()
 
         # Validate the unit and value
-        if value < 0 or unit not in ['C', 'F', 'K']:
-            raise ValueError('Temperature value must be positive and unit must be C, F, or K.')
+        if unit not in ["C", "F", "K"]:
+            raise ValueError("Temperature unit must be C, F, or K.")
+
+        if unit == "C" and value < -273.15:
+            raise ValueError("Temperature below absolute zero.")
+
+        if unit == "F" and value < -459.67:
+            raise ValueError("Temperature below absolute zero.")
+
+        if unit == "K" and value < 0:
+            raise ValueError("Temperature below absolute zero.")
 
         self._value = value
         self._unit = unit
 
-    def to_celsius(self) -> 'Temperature':
-        """Converts the temperature to Celsius."""
+    def to_celsius(self) -> float:
+        """Converts the temperature to Celsius and returns the value."""
 
-        # If the current unit is Celsius, return a new Temperature object with the same value and unit.
+        # If current unit is C, keep the value
         if self._unit == 'C':
-            return Temperature(self._value, 'C')
-        
-        # If the current unit is Fahrenheit, convert to Celsius using the formula: (F - 32) * 5/9.
+            return self._value
+
+        # If current unit is F, convert to C
         elif self._unit == 'F':
-            celsius_value = (self._value - 32) * 5 / 9
-            return Temperature(celsius_value, 'C')
+            return (self._value - 32) * 5 / 9
 
-        # If the current unit is Kelvin, convert to Celsius using the formula: K - 273.15.
+        # If current unit is K, convert to C
         elif self._unit == 'K':
-            celsius_value = self._value - 273.15
-            return Temperature(celsius_value, 'C')
+            return self._value - 273.15
 
-    def to_fahrenheit(self) -> 'Temperature':
-        """Converts the temperature to Fahrenheit."""
+    def to_fahrenheit(self) -> float:
+        """Converts the temperature to Fahrenheit and returns the value."""
 
-        # If the current unit is Celsius, convert to Fahrenheit using the formula: (C * 9/5) + 32.
+        # If current unit is C, convert to F
         if self._unit == 'C':
-            fahrenheit_value = (self._value * 9 / 5) + 32
-            return Temperature(fahrenheit_value, 'F')
+            return (self._value * 9 / 5) + 32
 
-        # If the current unit is Fahrenheit, return a new Temperature object with the same value and unit.
+        # If current unit is F, keep the value
         elif self._unit == 'F':
-            return Temperature(self._value, 'F')
+            return self._value
 
-        # If the current unit is Kelvin, convert to Fahrenheit using the formula: (K - 273.15) * 9/5 + 32.
+        # If current unit is K, convert to F
         elif self._unit == 'K':
-            fahrenheit_value = (self._value - 273.15) * 9 / 5 + 32
-            return Temperature(fahrenheit_value, 'F')
+            return (self._value - 273.15) * 9 / 5 + 32
 
-    def to_kelvin(self) -> 'Temperature':
-        """Converts the temperature to Kelvin."""
+    def to_kelvin(self) -> float:
+        """Converts the temperature to Kelvin and returns the value."""
 
-        # If the current unit is Celsius, convert to Kelvin using the formula: C + 273.15.
+        # If unit is C, convert to K
         if self._unit == 'C':
-            kelvin_value = self._value + 273.15
-            return Temperature(kelvin_value, 'K')
+            return self._value + 273.15
 
-        # If the current unit is Fahrenheit, convert to Kelvin using the formula: (F - 32) * 5/9 + 273.15.
+        # If unit is F, convert to K
         elif self._unit == 'F':
-            kelvin_value = (self._value - 32) * 5 / 9 + 273.15
-            return Temperature(kelvin_value, 'K')
+            return (self._value - 32) * 5 / 9 + 273.15
 
-        # If the current unit is Kelvin, return a new Temperature object with the same value and unit.
+        # If unit is K, keep the value
         elif self._unit == 'K':
-            return Temperature(self._value, 'K')
+            return self._value
 
     def convert_to(self, target_unit: str) -> 'Temperature':
         """Converts the temperature to the target unit."""
 
         target_unit = target_unit.upper()
 
-        # Validate the target unit
+        # Validate target unit
         if target_unit not in ['C', 'F', 'K']:
             raise ValueError('Target unit must be C, F, or K.')
 
-        # If the current unit is the same as the target unit, return a new Temperature object with the same value and unit.
+        # If already in target unit, return a copy
         if self._unit == target_unit:
             return Temperature(self._value, self._unit)
 
-        # Convert to the target unit using the appropriate conversion method.
+        # Convert to requested unit
         if target_unit == 'C':
-            return Temperature(self.to_celsius(), "C")
+            return Temperature(self.to_celsius(), 'C')
+
         elif target_unit == 'F':
-            return Temperature(self.to_fahrenheit(), "F")
+            return Temperature(self.to_fahrenheit(), 'F')
+
         elif target_unit == 'K':
-            return Temperature(self.to_kelvin(), "K")
+            return Temperature(self.to_kelvin(), 'K')
 
     def __eq__(self, other: object) -> bool:
         """Checks if two Temperature objects are equal in value. Comparing different units is possible."""
@@ -163,7 +169,7 @@ class Temperature:
 
     def __str__(self) -> str:
         """String representation of temperature object formatted to two decimal places."""
-        return f"Temperature: {self._value:.2f} {self._unit}"
+        return f"{self._value:.2f} °{self._unit}"
 
     @property
     def value(self) -> float:
