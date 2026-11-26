@@ -1,0 +1,12 @@
+* b5f6526 - Thea Gathe, 3 minutes ago : Final notes added
+* f2a9346 - Thea Gathe, 2 hours ago : Finish formalities before delivery
+*   04db234 - kikibeumer, 2 days ago : Merge branch 'main' of https://github.com/kikibeumer/INF201_Deliverable4
+|\  
+| * 2cae879 - Thea Gathe, 2 days ago : Do task 2, and put together notebook with tests
+* | fa6c693 - kikibeumer, 2 days ago : Updated temperature.py
+|/  
+* a1e75ee - kikibeumer, 3 days ago : Finished task1
+* 7bd2cf7 - kikibeumer, 10 days ago : Started testing task 1
+* 1861a32 - kikibeumer, 10 days ago : Finish first part task 1 except 2.
+* 663631d - kikibeumer, 10 days ago : Started task1
+* 9862d48 - kikibeumer, 10 days ago : Initial commit
