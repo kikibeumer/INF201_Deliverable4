@@ -6,283 +6,32 @@ plugins: platformdirs-4.14.8
 [1mcollecting ... [0mcollected 28 items
 
 test_fraction.py::test_fraction [32mPASSED[0m[32m                                   [  3%][0m
-test_temperature.py::test_default_unit_is_celsius [31mFAILED[0m[31m                 [  7%][0m
-test_temperature.py::test_units_are_case_insensitive[c] [32mPASSED[0m[31m           [ 10%][0m
-test_temperature.py::test_units_are_case_insensitive[C] [32mPASSED[0m[31m           [ 14%][0m
-test_temperature.py::test_units_are_case_insensitive[f] [32mPASSED[0m[31m           [ 17%][0m
-test_temperature.py::test_units_are_case_insensitive[F] [32mPASSED[0m[31m           [ 21%][0m
-test_temperature.py::test_units_are_case_insensitive[k] [32mPASSED[0m[31m           [ 25%][0m
-test_temperature.py::test_units_are_case_insensitive[K] [32mPASSED[0m[31m           [ 28%][0m
-test_temperature.py::test_unit_is_read_only [32mPASSED[0m[31m                       [ 32%][0m
-test_temperature.py::test_value_is_read_only [32mPASSED[0m[31m                      [ 35%][0m
-test_temperature.py::test_invalid_units[X] [32mPASSED[0m[31m                        [ 39%][0m
-test_temperature.py::test_invalid_units[] [32mPASSED[0m[31m                         [ 42%][0m
-test_temperature.py::test_invalid_units[CELSIUS] [32mPASSED[0m[31m                  [ 46%][0m
-test_temperature.py::test_below_absolute_zero_celsius [32mPASSED[0m[31m             [ 50%][0m
-test_temperature.py::test_below_absolute_zero_fahrenheit [32mPASSED[0m[31m          [ 53%][0m
-test_temperature.py::test_below_absolute_zero_kelvin [32mPASSED[0m[31m              [ 57%][0m
-test_temperature.py::test_invalid_target_unit [32mPASSED[0m[31m                     [ 60%][0m
-test_temperature.py::test_absolute_zero [31mFAILED[0m[31m                           [ 64%][0m
-test_temperature.py::test_celsius_fahrenheit_crossover [31mFAILED[0m[31m            [ 67%][0m
-test_temperature.py::test_freezing_point_of_water [31mFAILED[0m[31m                 [ 71%][0m
-test_temperature.py::test_human_body_temperature [31mFAILED[0m[31m                  [ 75%][0m
-test_temperature.py::test_boiling_point_of_water [31mFAILED[0m[31m                  [ 78%][0m
-test_temperature.py::test_round_trip_conversion [31mFAILED[0m[31m                   [ 82%][0m
-test_temperature.py::test_cross_unit_equality [31mFAILED[0m[31m                     [ 85%][0m
-test_temperature.py::test_cross_unit_ordering [31mFAILED[0m[31m                     [ 89%][0m
-test_temperature.py::test_comparison_with_non_temperature [32mPASSED[0m[31m         [ 92%][0m
-test_temperature.py::test_str [31mFAILED[0m[31m                                     [ 96%][0m
-test_temperature.py::test_repr [32mPASSED[0m[31m                                    [100%][0m
+test_temperature.py::test_default_unit_is_celsius [32mPASSED[0m[32m                 [  7%][0m
+test_temperature.py::test_units_are_case_insensitive[c] [32mPASSED[0m[32m           [ 10%][0m
+test_temperature.py::test_units_are_case_insensitive[C] [32mPASSED[0m[32m           [ 14%][0m
+test_temperature.py::test_units_are_case_insensitive[f] [32mPASSED[0m[32m           [ 17%][0m
+test_temperature.py::test_units_are_case_insensitive[F] [32mPASSED[0m[32m           [ 21%][0m
+test_temperature.py::test_units_are_case_insensitive[k] [32mPASSED[0m[32m           [ 25%][0m
+test_temperature.py::test_units_are_case_insensitive[K] [32mPASSED[0m[32m           [ 28%][0m
+test_temperature.py::test_unit_is_read_only [32mPASSED[0m[32m                       [ 32%][0m
+test_temperature.py::test_value_is_read_only [32mPASSED[0m[32m                      [ 35%][0m
+test_temperature.py::test_invalid_units[X] [32mPASSED[0m[32m                        [ 39%][0m
+test_temperature.py::test_invalid_units[] [32mPASSED[0m[32m                         [ 42%][0m
+test_temperature.py::test_invalid_units[CELSIUS] [32mPASSED[0m[32m                  [ 46%][0m
+test_temperature.py::test_below_absolute_zero_celsius [32mPASSED[0m[32m             [ 50%][0m
+test_temperature.py::test_below_absolute_zero_fahrenheit [32mPASSED[0m[32m          [ 53%][0m
+test_temperature.py::test_below_absolute_zero_kelvin [32mPASSED[0m[32m              [ 57%][0m
+test_temperature.py::test_invalid_target_unit [32mPASSED[0m[32m                     [ 60%][0m
+test_temperature.py::test_absolute_zero [32mPASSED[0m[32m                           [ 64%][0m
+test_temperature.py::test_celsius_fahrenheit_crossover [32mPASSED[0m[32m            [ 67%][0m
+test_temperature.py::test_freezing_point_of_water [32mPASSED[0m[32m                 [ 71%][0m
+test_temperature.py::test_human_body_temperature [32mPASSED[0m[32m                  [ 75%][0m
+test_temperature.py::test_boiling_point_of_water [32mPASSED[0m[32m                  [ 78%][0m
+test_temperature.py::test_round_trip_conversion [32mPASSED[0m[32m                   [ 82%][0m
+test_temperature.py::test_cross_unit_equality [32mPASSED[0m[32m                     [ 85%][0m
+test_temperature.py::test_cross_unit_ordering [32mPASSED[0m[32m                     [ 89%][0m
+test_temperature.py::test_comparison_with_non_temperature [32mPASSED[0m[32m         [ 92%][0m
+test_temperature.py::test_str [32mPASSED[0m[32m                                     [ 96%][0m
+test_temperature.py::test_repr [32mPASSED[0m[32m                                    [100%][0m
 
-=================================== FAILURES ===================================
-[31m[1m_________________________ test_default_unit_is_celsius _________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_default_unit_is_celsius[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test that the default unit is Celsius when not specified."""[39;49;00m[90m[39;49;00m
->       temp = Temperature([94m25[39;49;00m)[90m[39;49;00m
-               ^^^^^^^^^^^^^^^[90m[39;49;00m
-[1m[31mE       TypeError: Temperature.__init__() missing 1 required positional argument: 'unit'[0m
-
-[1m[31mtest_temperature.py[0m:9: TypeError
-[31m[1m______________________________ test_absolute_zero ______________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_absolute_zero[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test conversion accuracy at absolute zero."""[39;49;00m[90m[39;49;00m
-        temp = Temperature([94m0[39;49;00m, [33m"[39;49;00m[33mK[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Check that absolute zero in Kelvin converts correctly to Celsius and Fahrenheit.[39;49;00m[90m[39;49;00m
->       [94massert[39;49;00m temp.to_celsius() == pytest.approx(-[94m273.15[39;49;00m)[90m[39;49;00m
-               ^^^^^^^^^^^^^^^^^[90m[39;49;00m
-
-[1m[31mtest_temperature.py[0m:85: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-[1m[31mtemperature.py[0m:37: in to_celsius
-    [0m[94mreturn[39;49;00m Temperature(celsius_value, [33m'[39;49;00m[33mC[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <[AttributeError("'Temperature' object has no attribute '_value'") raised in repr()] Temperature object at 0x1028de200>
-value = -273.15, unit = 'C'
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92m__init__[39;49;00m([96mself[39;49;00m, value: [96mfloat[39;49;00m, unit: [96mstr[39;49;00m) -> [94mNone[39;49;00m:[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Initializes a Temperature object.[39;49;00m
-    [33m    Args:[39;49;00m
-    [33m        value (float): The temperature value.[39;49;00m
-    [33m        unit (str): The unit of the temperature ('C', 'F', or 'K').[39;49;00m
-    [33m    """[39;49;00m[90m[39;49;00m
-    [90m[39;49;00m
-        unit = unit.upper()[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Validate the unit and value[39;49;00m[90m[39;49;00m
-        [94mif[39;49;00m value < [94m0[39;49;00m [95mor[39;49;00m unit [95mnot[39;49;00m [95min[39;49;00m [[33m'[39;49;00m[33mC[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mF[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mK[39;49;00m[33m'[39;49;00m]:[90m[39;49;00m
->           [94mraise[39;49;00m [96mValueError[39;49;00m([33m'[39;49;00m[33mTemperature value must be positive and unit must be C, F, or K.[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
-[1m[31mE           ValueError: Temperature value must be positive and unit must be C, F, or K.[0m
-
-[1m[31mtemperature.py[0m:17: ValueError
-[31m[1m______________________ test_celsius_fahrenheit_crossover _______________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_celsius_fahrenheit_crossover[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test conversion accuracy at the crossover point between Celsius and Fahrenheit."""[39;49;00m[90m[39;49;00m
->       temp = Temperature(-[94m40[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-               ^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-
-[1m[31mtest_temperature.py[0m:91: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <[AttributeError("'Temperature' object has no attribute '_value'") raised in repr()] Temperature object at 0x1028ddd30>
-value = -40, unit = 'C'
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92m__init__[39;49;00m([96mself[39;49;00m, value: [96mfloat[39;49;00m, unit: [96mstr[39;49;00m) -> [94mNone[39;49;00m:[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Initializes a Temperature object.[39;49;00m
-    [33m    Args:[39;49;00m
-    [33m        value (float): The temperature value.[39;49;00m
-    [33m        unit (str): The unit of the temperature ('C', 'F', or 'K').[39;49;00m
-    [33m    """[39;49;00m[90m[39;49;00m
-    [90m[39;49;00m
-        unit = unit.upper()[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Validate the unit and value[39;49;00m[90m[39;49;00m
-        [94mif[39;49;00m value < [94m0[39;49;00m [95mor[39;49;00m unit [95mnot[39;49;00m [95min[39;49;00m [[33m'[39;49;00m[33mC[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mF[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mK[39;49;00m[33m'[39;49;00m]:[90m[39;49;00m
->           [94mraise[39;49;00m [96mValueError[39;49;00m([33m'[39;49;00m[33mTemperature value must be positive and unit must be C, F, or K.[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
-[1m[31mE           ValueError: Temperature value must be positive and unit must be C, F, or K.[0m
-
-[1m[31mtemperature.py[0m:17: ValueError
-[31m[1m_________________________ test_freezing_point_of_water _________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_freezing_point_of_water[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test conversion accuracy at the freezing point of water."""[39;49;00m[90m[39;49;00m
-        temp = Temperature([94m0[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Check that the freezing point of water in Celsius converts correctly to Fahrenheit and Kelvin.[39;49;00m[90m[39;49;00m
->       [94massert[39;49;00m temp.to_fahrenheit() == pytest.approx([94m32[39;49;00m)[90m[39;49;00m
-[1m[31mE       AssertionError: assert Temperature(32.0, 'F') == 32 ± 3.2e-05[0m
-[1m[31mE         [0m
-[1m[31mE         comparison failed[0m
-[1m[31mE         Obtained: Temperature: 32.00 F[0m
-[1m[31mE         Expected: 32 ± 3.2e-05[0m
-
-[1m[31mtest_temperature.py[0m:102: AssertionError
-[31m[1m_________________________ test_human_body_temperature __________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_human_body_temperature[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test conversion accuracy at human body temperature."""[39;49;00m[90m[39;49;00m
-        temp = Temperature([94m37[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Check that human body temperature in Celsius converts correctly to Fahrenheit and Kelvin.[39;49;00m[90m[39;49;00m
->       [94massert[39;49;00m temp.to_fahrenheit() == pytest.approx([94m98.6[39;49;00m)[90m[39;49;00m
-[1m[31mE       AssertionError: assert Temperature(98.6, 'F') == 98.6 ± 9.9e-05[0m
-[1m[31mE         [0m
-[1m[31mE         comparison failed[0m
-[1m[31mE         Obtained: Temperature: 98.60 F[0m
-[1m[31mE         Expected: 98.6 ± 9.9e-05[0m
-
-[1m[31mtest_temperature.py[0m:111: AssertionError
-[31m[1m_________________________ test_boiling_point_of_water __________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_boiling_point_of_water[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test conversion accuracy at the boiling point of water."""[39;49;00m[90m[39;49;00m
-        temp = Temperature([94m100[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Check that the boiling point of water in Celsius converts correctly to Fahrenheit and Kelvin.[39;49;00m[90m[39;49;00m
->       [94massert[39;49;00m temp.to_fahrenheit() == pytest.approx([94m212[39;49;00m)[90m[39;49;00m
-[1m[31mE       AssertionError: assert Temperature(212.0, 'F') == 212 ± 2.1e-04[0m
-[1m[31mE         [0m
-[1m[31mE         comparison failed[0m
-[1m[31mE         Obtained: Temperature: 212.00 F[0m
-[1m[31mE         Expected: 212 ± 2.1e-04[0m
-
-[1m[31mtest_temperature.py[0m:120: AssertionError
-[31m[1m__________________________ test_round_trip_conversion __________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_round_trip_conversion[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test that converting from Celsius to Fahrenheit to Kelvin and back to Celsius reproduces the original temperature."""[39;49;00m[90m[39;49;00m
-        original = Temperature([94m25[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Perform the round-trip conversion: C -> F -> K -> C[39;49;00m[90m[39;49;00m
-        converted = (original[90m[39;49;00m
->           .convert_to([33m"[39;49;00m[33mF[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-             ^^^^^^^^^^^^^^^[90m[39;49;00m
-            .convert_to([33m"[39;49;00m[33mK[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-            .convert_to([33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m))[90m[39;49;00m
-
-[1m[31mtest_temperature.py[0m:132: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-[1m[31mtemperature.py[0m:90: in convert_to
-    [0m[94mreturn[39;49;00m Temperature([96mself[39;49;00m.to_fahrenheit(), [33m"[39;49;00m[33mF[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <[AttributeError("'Temperature' object has no attribute '_value'") raised in repr()] Temperature object at 0x1028f6cf0>
-value = Temperature(77.0, 'F'), unit = 'F'
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92m__init__[39;49;00m([96mself[39;49;00m, value: [96mfloat[39;49;00m, unit: [96mstr[39;49;00m) -> [94mNone[39;49;00m:[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Initializes a Temperature object.[39;49;00m
-    [33m    Args:[39;49;00m
-    [33m        value (float): The temperature value.[39;49;00m
-    [33m        unit (str): The unit of the temperature ('C', 'F', or 'K').[39;49;00m
-    [33m    """[39;49;00m[90m[39;49;00m
-    [90m[39;49;00m
-        unit = unit.upper()[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Validate the unit and value[39;49;00m[90m[39;49;00m
->       [94mif[39;49;00m value < [94m0[39;49;00m [95mor[39;49;00m unit [95mnot[39;49;00m [95min[39;49;00m [[33m'[39;49;00m[33mC[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mF[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mK[39;49;00m[33m'[39;49;00m]:[90m[39;49;00m
-           ^^^^^^^^^[90m[39;49;00m
-[1m[31mE       TypeError: '<' not supported between instances of 'Temperature' and 'int'[0m
-
-[1m[31mtemperature.py[0m:16: TypeError
-[31m[1m___________________________ test_cross_unit_equality ___________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_cross_unit_equality[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test that temperatures in different units can be compared for equality."""[39;49;00m[90m[39;49;00m
->       [94massert[39;49;00m Temperature([94m0[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m) == Temperature([94m32[39;49;00m, [33m"[39;49;00m[33mF[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-
-[1m[31mtest_temperature.py[0m:144: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-[1m[31mtemperature.py[0m:102: in __eq__
-    [0mother = other.convert_to([96mself[39;49;00m._unit)[90m[39;49;00m
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-[1m[31mtemperature.py[0m:88: in convert_to
-    [0m[94mreturn[39;49;00m Temperature([96mself[39;49;00m.to_celsius(), [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <[AttributeError("'Temperature' object has no attribute '_value'") raised in repr()] Temperature object at 0x1028f75f0>
-value = Temperature(0.0, 'C'), unit = 'C'
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92m__init__[39;49;00m([96mself[39;49;00m, value: [96mfloat[39;49;00m, unit: [96mstr[39;49;00m) -> [94mNone[39;49;00m:[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Initializes a Temperature object.[39;49;00m
-    [33m    Args:[39;49;00m
-    [33m        value (float): The temperature value.[39;49;00m
-    [33m        unit (str): The unit of the temperature ('C', 'F', or 'K').[39;49;00m
-    [33m    """[39;49;00m[90m[39;49;00m
-    [90m[39;49;00m
-        unit = unit.upper()[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Validate the unit and value[39;49;00m[90m[39;49;00m
->       [94mif[39;49;00m value < [94m0[39;49;00m [95mor[39;49;00m unit [95mnot[39;49;00m [95min[39;49;00m [[33m'[39;49;00m[33mC[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mF[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mK[39;49;00m[33m'[39;49;00m]:[90m[39;49;00m
-           ^^^^^^^^^[90m[39;49;00m
-[1m[31mE       TypeError: '<' not supported between instances of 'Temperature' and 'int'[0m
-
-[1m[31mtemperature.py[0m:16: TypeError
-[31m[1m___________________________ test_cross_unit_ordering ___________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_cross_unit_ordering[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test that temperatures in different units can be compared for ordering."""[39;49;00m[90m[39;49;00m
-        [94massert[39;49;00m Temperature([94m0[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m) < Temperature([94m100[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
->       [94massert[39;49;00m Temperature([94m32[39;49;00m, [33m"[39;49;00m[33mF[39;49;00m[33m"[39;49;00m) <= Temperature([94m0[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-
-[1m[31mtest_temperature.py[0m:152: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-[1m[31mtemperature.py[0m:124: in __le__
-    [0mother = other.convert_to([96mself[39;49;00m._unit)[90m[39;49;00m
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-[1m[31mtemperature.py[0m:90: in convert_to
-    [0m[94mreturn[39;49;00m Temperature([96mself[39;49;00m.to_fahrenheit(), [33m"[39;49;00m[33mF[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <[AttributeError("'Temperature' object has no attribute '_value'") raised in repr()] Temperature object at 0x1028f7a70>
-value = Temperature(32.0, 'F'), unit = 'F'
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92m__init__[39;49;00m([96mself[39;49;00m, value: [96mfloat[39;49;00m, unit: [96mstr[39;49;00m) -> [94mNone[39;49;00m:[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Initializes a Temperature object.[39;49;00m
-    [33m    Args:[39;49;00m
-    [33m        value (float): The temperature value.[39;49;00m
-    [33m        unit (str): The unit of the temperature ('C', 'F', or 'K').[39;49;00m
-    [33m    """[39;49;00m[90m[39;49;00m
-    [90m[39;49;00m
-        unit = unit.upper()[90m[39;49;00m
-    [90m[39;49;00m
-        [90m# Validate the unit and value[39;49;00m[90m[39;49;00m
->       [94mif[39;49;00m value < [94m0[39;49;00m [95mor[39;49;00m unit [95mnot[39;49;00m [95min[39;49;00m [[33m'[39;49;00m[33mC[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mF[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mK[39;49;00m[33m'[39;49;00m]:[90m[39;49;00m
-           ^^^^^^^^^[90m[39;49;00m
-[1m[31mE       TypeError: '<' not supported between instances of 'Temperature' and 'int'[0m
-
-[1m[31mtemperature.py[0m:16: TypeError
-[31m[1m___________________________________ test_str ___________________________________[0m
-
-    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_str[39;49;00m():[90m[39;49;00m
-    [90m    [39;49;00m[33m"""Test the string representation is formatted correctly."""[39;49;00m[90m[39;49;00m
-        temp = Temperature([94m25[39;49;00m, [33m"[39;49;00m[33mC[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
-    [90m[39;49;00m
->       [94massert[39;49;00m [96mstr[39;49;00m(temp) == [33m"[39;49;00m[33m25.00 °C[39;49;00m[33m"[39;49;00m[90m[39;49;00m
-[1m[31mE       AssertionError: assert 'Temperature: 25.00 C' == '25.00 °C'[0m
-[1m[31mE         [0m
-[1m[31mE         [0m[91m- 25.00 °C[39;49;00m[90m[39;49;00m[0m
-[1m[31mE         [92m+ Temperature: 25.00 C[39;49;00m[90m[39;49;00m[0m
-
-[1m[31mtest_temperature.py[0m:168: AssertionError
-[36m[1m=========================== short test summary info ============================[0m
-[31mFAILED[0m test_temperature.py::[1mtest_default_unit_is_celsius[0m - TypeError: Temperature.__init__() missing 1 required positional argument: '...
-[31mFAILED[0m test_temperature.py::[1mtest_absolute_zero[0m - ValueError: Temperature value must be positive and unit must be C, F, or K.
-[31mFAILED[0m test_temperature.py::[1mtest_celsius_fahrenheit_crossover[0m - ValueError: Temperature value must be positive and unit must be C, F, or K.
-[31mFAILED[0m test_temperature.py::[1mtest_freezing_point_of_water[0m - AssertionError: assert Temperature(32.0, 'F') == 32 ± 3.2e-05
-[31mFAILED[0m test_temperature.py::[1mtest_human_body_temperature[0m - AssertionError: assert Temperature(98.6, 'F') == 98.6 ± 9.9e-05
-[31mFAILED[0m test_temperature.py::[1mtest_boiling_point_of_water[0m - AssertionError: assert Temperature(212.0, 'F') == 212 ± 2.1e-04
-[31mFAILED[0m test_temperature.py::[1mtest_round_trip_conversion[0m - TypeError: '<' not supported between instances of 'Temperature' and 'int'
-[31mFAILED[0m test_temperature.py::[1mtest_cross_unit_equality[0m - TypeError: '<' not supported between instances of 'Temperature' and 'int'
-[31mFAILED[0m test_temperature.py::[1mtest_cross_unit_ordering[0m - TypeError: '<' not supported between instances of 'Temperature' and 'int'
-[31mFAILED[0m test_temperature.py::[1mtest_str[0m - AssertionError: assert 'Temperature: 25.00 C' == '25.00 °C'
-[31m======================== [31m[1m10 failed[0m, [32m18 passed[0m[31m in 0.06s[0m[31m =========================[0m
+[32m============================== [32m[1m28 passed[0m[32m in 0.01s[0m[32m ==============================[0m
